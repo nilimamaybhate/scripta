@@ -1,0 +1,9 @@
+.venv/
+scripta_model/
+__pycache__/
+*.pyc
+*.pt
+*.bin
+*.pkl
+*.csv
+*.zip

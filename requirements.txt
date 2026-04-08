@@ -1,0 +1,11 @@
+# Scripta AI Detector — Python Requirements
+# Install with:  pip install -r requirements.txt
+
+torch>=2.9.0
+transformers>=4.40.0
+datasets>=2.19.0
+scikit-learn>=1.4.2
+flask>=3.0.3
+flask-cors>=4.0.1
+accelerate>=0.29.3
+numpy>=1.26.4
