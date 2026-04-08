@@ -1255,7 +1255,9 @@ document.addEventListener('keydown',e=>{if(e.ctrlKey&&e.key==='Enter')runAnalysi
 </script>
 </body>
 </html>"""
-
+@app.route("/")
+def home():
+    return "Scripta is running on Render 🚀"
 if __name__ == "__main__":
     print("\n🚀 Scripta AI Detector starting...")
     print(f"   Model: {'✅ Real ML (' + MODEL_DIR + ')' if MODEL_READY else '⚠  Heuristic (train first)'}")
