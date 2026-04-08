@@ -9,3 +9,4 @@ flask>=3.0.3
 flask-cors>=4.0.1
 accelerate>=0.29.3
 numpy>=1.26.4
+gunicorn==21.2.0
